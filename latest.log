@@ -1,0 +1,1028 @@
+info: [2023-06-24T17:08:39Z ERROR rust_launcher::start::drm] Error while getting NTP time: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (os error 10060)
+info: CONNECTING TO SERVER undefined
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start::bindings] server: None
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Loading version
+info: {"versionSize":221212297,"state":{"VersionLoading":true},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":0}
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Finished loading version
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Finished moving mods
+info: {"versionSize":221212297,"state":{"Downloading":["Assets","Libraries","Jre","Mods"]},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":78635}
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Preparing assets
+[2023-06-24T17:08:39Z INFO  rust_launcher::start] Preparing JRE
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Preparing libraries
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Preparing mods
+info: {"versionSize":221212297,"state":{"Downloading":["Assets","Libraries","Mods"]},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":43226516}
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Finished preparing mods
+info: {"versionSize":221212297,"state":{"Downloading":["Assets","Libraries"]},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":208652607}
+info: [2023-06-24T17:08:39Z INFO  rust_launcher::start] Finished preparing libraries
+info: {"versionSize":221212297,"state":{"Downloading":["Assets"]},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":719635632}
+info: {"versionSize":221212297,"state":{"Downloading":["Assets"]},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":812177537}
+info: [2023-06-24T17:08:40Z INFO  rust_launcher::start] Finished preparing assets
+[2023-06-24T17:08:40Z INFO  rust_launcher::start] Preparing registry
+[2023-06-24T17:08:40Z INFO  rust_launcher::start] Finished preparing registry
+info: {"versionSize":221212297,"state":{"Jvm":true},"currentDownloadRate":0,"expectedTasks":6,"downloadSpeed":0,"downloaded":941214504}
+info: [2023-06-24T17:08:40Z INFO  rust_launcher::common::launch] starting JVM with arguments: ["-Djava.library.path=libraries/native\\net/digitalingot/fcef-windows/0.0.5\\extracted/;libraries/native\\net/digitalingot/fwebp-windows/0.0.1\\extracted/;libraries/native\\de/jcm/discord-game-sdk4j-windows/0.5.4\\extracted/;libraries/native\\org/jitsi/jnopus/1.0\\extracted/;libraries/native\\org/lwjgl/lwjgl/3.3.1\\extracted/;libraries/native\\org/lwjgl/lwjgl-jemalloc/3.3.1\\extracted/;libraries/native\\org/lwjgl/lwjgl-openal/3.3.1\\extracted/;libraries/native\\org/lwjgl/lwjgl-opengl/3.3.1\\extracted/;libraries/native\\org/lwjgl/lwjgl-glfw/3.3.1\\extracted/;libraries/native\\org/lwjgl/lwjgl-stb/3.3.1\\extracted/;libraries/native\\org/lwjgl/lwjgl-tinyfd/3.3.1\\extracted/;libraries/native\\com/mojang/text2speech/1.13.9\\extracted/", "--add-opens=java.desktop/java.awt.event=ALL-UNNAMED", "--add-opens=java.desktop/java.awt.color=ALL-UNNAMED", "--add-opens=java.desktop/java.awt=ALL-UNNAMED", "--add-opens=java.base/java.lang=ALL-UNNAMED", "-Xmx2048M", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseG1GC", "-XX:G1NewSizePercent=20", "-XX:G1ReservePercent=20", "-XX:MaxGCPauseMillis=50", "-XX:G1HeapRegionSize=32M", "-Dlog4j2.formatMsgNoLookups=true", "-XX:ErrorFile=feather/java_error.log", "-Djavax.accessibility.assistive_technologies=", "-Djavax.net.ssl.trustStoreType=WINDOWS-ROOT", "-cp", "libraries\\java\\net/minecraft/client/1.20/minecraft-1.20.jar;libraries\\java\\net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar;libraries\\java\\net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar;libraries\\java\\net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar;libraries\\java\\net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar;libraries\\java\\org/ow2/asm/asm/9.5/asm-9.5.jar;libraries\\java\\org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;libraries\\java\\org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;libraries\\java\\org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;libraries\\java\\org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;libraries\\java\\net/fabricmc/intermediary/1.20/intermediary-1.20.jar;libraries/java\\net/fabricmc/fabric-loader/0.14.21/fabric-loader-0.14.21.jar;libraries\\java\\de/javagl/obj/0.3.0/obj-0.3.0.jar;libraries\\java\\de/jcm/discord-game-sdk4j/0.5.4/discord-game-sdk4j-0.5.4;libraries\\java\\net/digitalingot/feather-server-api-proto/1.1-SNAPSHOT/feather-server-api-proto-1.1-SNAPSHOT.jar;libraries\\java\\net/digitalingot/rust-extension/1.0.7/rust-extension-1.0.7.jar;libraries\\java\\net/digitalingot/fcef/0.0.5/fcef-0.0.5.jar;libraries\\java\\net/digitalingot/fwebp/0.0.1/fwebp-0.0.1.jar;libraries\\java\\net/digitalingot/feather-server-api/messaging/0.0.2/messaging-0.0.2-SNAPSHOT.jar;libraries\\java\\net/digitalingot/feather-server-api/api/0.0.2/api-0.0.2-SNAPSHOT.jar;libraries\\java\\org/jitsi/libjitsi/1.0-CUSTOM/libjitsi-1.0-CUSTOM.jar;libraries\\java\\org/jitsi/jitsi-utils/1.0-45-gc3afb76/jitsi-utils-1.0-45-gc3afb76.jar;libraries\\java\\org/capnproto/runtime/0.1.10/runtime-0.1.10.jar;libraries\\java\\com/google/inject/guice/5.1.0/guice-vendored-5.1.0.jar;libraries\\java\\javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar;libraries\\java\\com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar;libraries\\java\\com/google/code/gson/gson/2.10/gson-2.10.jar;libraries\\java\\com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;libraries\\java\\com/google/guava/guava/31.1-jre/guava-31.1-jre.jar;libraries\\java\\com/ibm/icu/icu4j/71.1/icu4j-71.1.jar;libraries\\java\\com/mojang/authlib/4.0.43/authlib-4.0.43.jar;libraries\\java\\com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar;libraries\\java\\com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar;libraries\\java\\com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar;libraries\\java\\com/mojang/logging/1.1.1/logging-1.1.1.jar;libraries\\java\\com/mojang/patchy/2.2.10/patchy-2.2.10.jar;libraries\\java\\com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar;libraries\\java\\commons-codec/commons-codec/1.15/commons-codec-1.15.jar;libraries\\java\\commons-io/commons-io/2.11.0/commons-io-2.11.0.jar;libraries\\java\\commons-logging/commons-logging/1.2/commons-logging-1.2.jar;libraries\\java\\io/netty/netty-codec-http/4.1.82.Final/netty-codec-http-4.1.82.Final.jar;libraries\\java\\io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar;libraries\\java\\io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar;libraries\\java\\io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar;libraries\\java\\io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar;libraries\\java\\io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar;libraries\\java\\io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar;libraries\\java\\io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar;libraries\\java\\io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar;libraries\\java\\it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar;libraries\\java\\net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar;libraries\\java\\net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar;libraries\\java\\net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;libraries\\java\\org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar;libraries\\java\\org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;libraries\\java\\org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;libraries\\java\\org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar;libraries\\java\\org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar;libraries\\java\\org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar;libraries\\java\\org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar;libraries\\java\\org/joml/joml/1.10.5/joml-1.10.5.jar;libraries\\java\\org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar;libraries\\java\\org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar;libraries\\java\\org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar;libraries\\java\\org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar;libraries\\java\\org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar;libraries\\java\\org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar;libraries\\java\\org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar;libraries\\java\\org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar", "net.digitalingot.rustextension.ProxiedStart", "net.fabricmc.loader.launch.knot.KnotClient", "--username", "Kilax_", "--version", "1.20-feather", "--gameDir", "C:\\Users\\ilanw\\AppData\\Roaming/.minecraft", "--assetsDir", "assets", "--assetIndex", "1.20-feather-game", "--uuid", "e6f848537a884c4aa5f52f1258fd34c9", "--accessToken", "<hidden>", "--userType", "msa", "--versionType", "feather"]
+info: sending javaw pid
+info: starting cleanup
+info: [13:08:42] [main/INFO]: Loading Minecraft 1.20 with Fabric Loader 0.14.21
+info: [13:08:43] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20+1.1 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+info: [13:08:43] [main/INFO]: Loading 146 mods:
+	- advancementinfo 1.20-fabric0.83.0-1.3.1
+	- appleskin 2.5.0+mc1.20
+	- architectury 9.0.8
+	- auto_third_person 2.0.2
+	- bendy-lib 4.0.0
+	- betterf3 7.0.0
+	- blur 3.1.0
+	   \-- satin 1.13.0
+	- capes 1.5.2+1.20
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	- chat_heads 0.10.16
+	- cloth-config 11.0.99
+	   \-- cloth-basic-math 0.6.1
+	- creativecore 2.10.24
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- dark-loading-screen 1.6.14
+	- dashloader 5.0.0-beta.1+1.20.0
+	   |-- com_github_luben_zstd-jni 1.5.2-2
+	   |-- dev_notalpha_taski 2.1.0
+	   \-- dev_quantumfusion_hyphen 0.4.0-rc.3
+	- debugify 1.20+1.1
+	- dynamicfps 2.4.0
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- eatinganimationid 1.9.4+1.20
+	- entityculling 1.6.2-mc1.20
+	- essential-container 1.0.0
+	   \-- essential-loader 1.0.0
+	- fabric-api 0.83.0+1.20
+	   |-- fabric-api-base 0.4.29+b04edc7a27
+	   |-- fabric-api-lookup-api-v1 1.6.34+4d8536c927
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b27
+	   |-- fabric-block-api-v1 1.0.9+e022e5d127
+	   |-- fabric-blockrenderlayer-v1 1.1.39+b3afc78b27
+	   |-- fabric-client-tags-api-v1 1.0.20+b3afc78b27
+	   |-- fabric-command-api-v1 1.2.32+f71b366f27
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b27
+	   |-- fabric-commands-v0 0.2.49+df3654b327
+	   |-- fabric-containers-v0 0.1.61+df3654b327
+	   |-- fabric-content-registries-v0 4.0.7+b3afc78b27
+	   |-- fabric-convention-tags-v1 1.5.3+b3afc78b27
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe27
+	   |-- fabric-data-generation-api-v1 12.1.10+b3afc78b27
+	   |-- fabric-dimensions-v1 2.1.51+b3afc78b27
+	   |-- fabric-entity-events-v1 1.5.21+b3afc78b27
+	   |-- fabric-events-interaction-v0 0.6.0+b3afc78b27
+	   |-- fabric-events-lifecycle-v0 0.2.61+df3654b327
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a27
+	   |-- fabric-item-api-v1 2.1.26+b3afc78b27
+	   |-- fabric-item-group-api-v1 4.0.7+b3afc78b27
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da27
+	   |-- fabric-keybindings-v0 0.2.34+df3654b327
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b27
+	   |-- fabric-loot-api-v2 1.1.37+b3afc78b27
+	   |-- fabric-loot-tables-v1 1.1.41+9e7660c627
+	   |-- fabric-message-api-v1 5.1.6+b3afc78b27
+	   |-- fabric-mining-level-api-v1 2.1.47+b3afc78b27
+	   |-- fabric-models-v0 0.3.35+b3afc78b27
+	   |-- fabric-networking-api-v1 1.3.8+b3afc78b27
+	   |-- fabric-networking-v0 0.3.48+df3654b327
+	   |-- fabric-object-builder-api-v1 11.0.6+b3afc78b27
+	   |-- fabric-particles-v1 1.0.28+b3afc78b27
+	   |-- fabric-recipe-api-v1 1.0.18+b3afc78b27
+	   |-- fabric-registry-sync-v0 2.2.6+b3afc78b27
+	   |-- fabric-renderer-api-v1 3.0.1+b3afc78b27
+	   |-- fabric-renderer-indigo 1.3.1+b3afc78b27
+	   |-- fabric-renderer-registries-v1 3.2.44+df3654b327
+	   |-- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b27
+	   |-- fabric-rendering-fluids-v1 3.0.26+b3afc78b27
+	   |-- fabric-rendering-v0 1.1.47+df3654b327
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b27
+	   |-- fabric-resource-conditions-api-v1 2.3.4+b3afc78b27
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	   |-- fabric-screen-api-v1 2.0.6+b3afc78b27
+	   |-- fabric-screen-handler-api-v1 1.3.27+b3afc78b27
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b27
+	   |-- fabric-transfer-api-v1 3.2.2+b3afc78b27
+	   \-- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b27
+	- fabric-language-kotlin 1.9.5+kotlin.1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.22
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.20.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.5.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.5.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.5.1
+	- fabricloader 0.14.21
+	- fallingleaves 1.15.1+1.20.1
+	- faster_entity_animations 1.6
+	- fastquit 3.0.0-beta.1+1.20+
+	- feather 1.0.0-SNAPSHOT
+	- firstperson 2.2.3
+	- geckolib 4.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- immediatelyfast 1.1.15+1.20.1
+	   |-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	   \-- net_lenni0451_reflect 1.1.0
+	- immersive_portals 3.0.2
+	   |-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	   |-- imm_ptl_core 3.0.2
+	   \-- q_misc_util 3.0.2
+	- inventoryprofilesnext 1.10.5
+	- iris 1.6.4
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre13
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- java 17
+	- journeymap 5.9.8
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- libipn 3.0.2
+	- lithium 0.11.2
+	- midnightlib 1.4.1
+	- minecraft 1.20
+	- modmenu 7.0.1
+	   |-- fabric-api-base 0.4.29+b04edc7a27
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da27
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b27
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b27
+	- morechathistory 1.1.1
+	- mousetweaks 2.25
+	- nochatreports 1.20.1-v2.2.1
+	- notenoughanimations 1.6.4
+	- notenoughcrashes 4.4.4+1.20
+	- pehkui 3.7.6+1.14.4-1.20.1
+	   \-- kanos_config 0.4.1+1.14.4-1.19.4
+	- player-animator 1.0.2-rc1+1.20
+	- replaymod 1.20.1-2.6.13
+	- roughlyenoughitems 12.0.625
+	   \-- error_notifier 1.0.9
+	- screenshotclipboard 1.0.9
+	- sodium 0.4.10+build.27
+	   |-- fabric-api-base 0.4.29+b04edc7a27
+	   |-- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b27
+	   |-- fabric-rendering-fluids-v1 3.0.26+b3afc78b27
+	   \-- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	- starlight 1.1.2+fabric.dbc156f
+	- totemcounter 1.3.0+mc1.20
+	- ukulib 0.7.0+1.20
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b27
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	   \-- gs_mclo_java_mclogs-java 2.1.1
+	- viafabric 0.4.10+39-main
+	   |-- org_yaml_snakeyaml 2.0
+	   |-- viafabric-mc120 0.4.10+39-main
+	   \-- viaversion 4.7.0
+	- vmp 0.2.0+beta.7.93
+	- voicechat 1.20-2.4.9
+	   |-- fabric-api-base 0.4.29+b04edc7a27
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b27
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da27
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b27
+	   |-- fabric-networking-api-v1 1.3.8+b3afc78b27
+	   \-- fabric-resource-loader-v0 0.11.7+f7923f6d27
+	- waveycapes 1.3.2
+	- yet_another_config_lib_v3 3.0.2+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.9.4
+	   |-- com_twelvemonkeys_common_common-io 3.9.4
+	   |-- com_twelvemonkeys_common_common-lang 3.9.4
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.9.4
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.9.4
+	   \-- com_twelvemonkeys_imageio_imageio-webp 3.9.4
+info: [13:08:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/ilanw/AppData/Roaming/.minecraft/libraries/java/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+info: [13:08:43] [main/INFO]: Compatibility level set to JAVA_17
+info: [13:08:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+info: [13:08:45] [main/WARN]: Reference map 'mixins.nonmmlauncher.replaymod.refmap.json' for mixins.nonmmlauncher.replaymod.json could not be read. If this is a development environment you can ignore this message
+info: [13:08:45] [main/WARN]: [Satin] Iris is present, custom block renders will not work
+info: [13:08:45] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 3 override(s) found
+info: [13:08:45] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+info: [13:08:45] [main/WARN]: Disabled Optional Feature CACHE_SHADER from imm_ptl_core config. Immersive Portals Core
+info: [13:08:45] [main/WARN]: Error loading class: net/minecraft/client/font/FontManager$1 (java.lang.ClassNotFoundException: net/minecraft/client/font/FontManager$1)
+info: [13:08:45] [main/WARN]: @Mixin target net/minecraft/client/font/FontManager$1 was not found dashloader.mixins.json:option.cache.font.FontManagerOverride from mod dashloader
+info: [13:08:46] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+info: [13:08:46] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+info: [13:08:46] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+info: [13:08:47] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.HeightmapAccessor' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
+[13:08:47] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.WorldChunkMixin' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
+[13:08:47] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [imm_ptl_core, vmp]) disables it and children
+info: [13:08:47] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinCuboid' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+[13:08:47] [main/WARN]: Force-disabling mixin 'features.entity.fast_render.MixinModelPart' as rule 'mixin.features.entity.fast_render' (added by mods [iris]) disables it and children
+info: [13:08:47] [main/WARN]: Force-disabling mixin 'features.gui.font.MixinGlyphRenderer' as rule 'mixin.features.gui.font' (added by mods [iris]) disables it and children
+info: [13:08:47] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+info: [13:08:47] [main/WARN]: Error loading class: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor (java.lang.ClassNotFoundException: com/ishland/c2me/notickvd/common/NoTickChunkSendingInterceptor)
+info: [13:08:48] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+info: [13:08:48] [main/WARN]: Error loading class: net/optifine/Config (java.lang.ClassNotFoundException: net/optifine/Config)
+info: [13:08:48] [main/WARN]: Error loading class: net/optifine/render/ChunkVisibility (java.lang.ClassNotFoundException: net/optifine/render/ChunkVisibility)
+info: [13:08:48] [main/WARN]: Error loading class: shadersmod/client/ShadersRender (java.lang.ClassNotFoundException: shadersmod/client/ShadersRender)
+[13:08:48] [main/WARN]: Error loading class: net/optifine/shaders/ShadersRender (java.lang.ClassNotFoundException: net/optifine/shaders/ShadersRender)
+info: [13:08:50] [main/INFO]: Starting Essential v1.2.1.6 (#f941de5ac) [stable]
+info: [13:08:50] [main/INFO]: Java: OpenJDK 64-Bit Server VM (v17.0.3) by Eclipse Adoptium (Eclipse Adoptium)
+[13:08:50] [main/INFO]: Java Path: C:\Users\ilanw\AppData\Roaming\.minecraft\jre\OpenJDK17U-jre_x64_windows_hotspot_17.0.3_7\bin
+[13:08:50] [main/INFO]: Java Info: mixed mode, sharing
+[13:08:50] [main/INFO]: JVM Arguments: 
+  - -Djava.library.path=libraries/native\net/digitalingot/fcef-windows/0.0.5\extracted/;libraries/native\net/digitalingot/fwebp-windows/0.0.1\extracted/;libraries/native\de/jcm/discord-game-sdk4j-windows/0.5.4\extracted/;libraries/native\org/jitsi/jnopus/1.0\extracted/;libraries/native\org/lwjgl/lwjgl/3.3.1\extracted/;libraries/native\org/lwjgl/lwjgl-jemalloc/3.3.1\extracted/;libraries/native\org/lwjgl/lwjgl-openal/3.3.1\extracted/;libraries/native\org/lwjgl/lwjgl-opengl/3.3.1\extracted/;libraries/native\org/lwjgl/lwjgl-glfw/3.3.1\extracted/;libraries/native\org/lwjgl/lwjgl-stb/3.3.1\extracted/;libraries/native\org/lwjgl/lwjgl-tinyfd/3.3.1\extracted/;libraries/native\com/mojang/text2speech/1.13.9\extracted/
+  - --add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+  - --add-opens=java.desktop/java.awt.color=ALL-UNNAMED
+  - --add-opens=java.desktop/java.awt=ALL-UNNAMED
+  - --add-opens=java.base/java.lang=ALL-UNNAMED
+  - -Xmx2048M
+  - -XX:+UnlockExperimentalVMOptions
+  - -XX:+UseG1GC
+  - -XX:G1NewSizePercent=20
+  - -XX:G1ReservePercent=20
+  - -XX:MaxGCPauseMillis=50
+  - -XX:G1HeapRegionSize=32M
+  - -Dlog4j2.formatMsgNoLookups=true
+  - -XX:ErrorFile=feather/java_error.log
+  - -Djavax.accessibility.assistive_technologies=
+  - -Djavax.net.ssl.trustStoreType=WINDOWS-ROOT
+[13:08:50] [main/INFO]: OS: Windows 11 (v10.0) (Arch: amd64)
+info: [Screenshot to Clipboard] Setting java.awt.headless to false
+info: [13:08:54] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[13:08:54] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+info: [13:08:55] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[13:08:55] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdbc5f99$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[13:08:55] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdbc5f99$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+info: [13:09:03] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+info: [13:09:04] [main/INFO]: Minecraft bootstrap in 10.0s
+info: [13:09:05] [Render thread/INFO]: Launching a new process to probe the system configuration!
+info: [13:09:05] [Render thread/INFO]: OpenGL Vendor: Intel
+[13:09:05] [Render thread/INFO]: OpenGL Renderer: Intel(R) Iris(R) Xe Graphics
+[13:09:05] [Render thread/INFO]: OpenGL Version: 3.3.0 - Build 31.0.101.4091
+info: [13:09:05] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.class_310
+info: [13:09:05] [Render thread/INFO]: Mixing client.MixinMinecraft from mixins/fabric/nochatreports-fabric.mixins.json into net.minecraft.class_310
+info: [13:09:05] [Render thread/WARN]: @ModifyConstant conflict. Skipping mixins.essential.json:client.MixinMinecraft from mod (unknown)->@ModifyConstant::modify(I)I with priority 1000, already redirected by mixins.feather.json:sa from mod feather->@ModifyConstant::ou(I)I with priority 1000
+info: [13:09:05] [Render thread/WARN]: Method overwrite conflict for setSession in mixins.feather.core.json:ir from mod feather, previously written by gg.essential.mixins.transformers.client.MixinMinecraft. Skipping method.
+info: [13:09:05] [Render thread/INFO]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_442
+info: [13:09:05] [Render thread/INFO]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.class_408
+info: [13:09:05] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/class_2561; to mdbc5f99$nochatreports$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+info: [13:09:05] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to mdbc5f99$nochatreports$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[13:09:05] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/class_2561; to mdbc5f99$nochatreports$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+info: [13:09:05] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to mdbc5f99$nochatreports$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+info: [13:09:05] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to mdbc5f99$nochatreports$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+info: [13:09:06] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+info: [13:09:06] [Render thread/INFO]: Mixing client.MixinYggdrasilUserApiService from mixins/common/nochatreports.mixins.json into com.mojang.authlib.yggdrasil.YggdrasilUserApiService
+info: [13:09:06] [Render thread/INFO]: Setting user: Kilax_
+info: [13:09:06] [Render thread/INFO]: Mixing client.MixinServerData from mixins/common/nochatreports.mixins.json into net.minecraft.class_642
+info: [13:09:06] [Render thread/INFO]: Using Default JreDnsResolver
+info: [13:09:07] [Render thread/INFO]: Starting DI!
+info: [13:09:07] [Render thread/INFO]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_374
+info: [13:09:07] [Thread 5/INFO]: OptiFine not detected.
+info: [13:09:07] [Render thread/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[13:09:07] [Render thread/INFO]: Saving Debugify
+info: [13:09:07] [Render thread/INFO]: Enabled 64 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-12829, MC-14923, MC-22882, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-140646, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-231097, MC-231743, MC-232869, MC-237493]
+[13:09:07] [Render thread/INFO]: Successfully Debugify'd your game!
+info: [13:09:07] [Render thread/INFO]: Loading FirstPerson Mod
+info: [13:09:08] [Render thread/INFO]: Loading Immersive Portals config
+info: [13:09:08] [Render thread/INFO]: IP Config Applied
+[13:09:08] [Render thread/INFO]: Immersive Portals Mod Initializing
+info: [13:09:08] [Render thread/INFO]: Dimensional Threading is not present
+info: [13:09:08] [Render thread/INFO]: Pehkui is present
+[13:09:08] [Render thread/INFO]: Gravity API is not present
+info: [13:09:08] [Render thread/INFO]: Initializing ServerSide Packet Registries
+info: [13:09:08] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[13:09:08] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+info: [13:09:08] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+info: [13:09:08] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+info: [13:09:08] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+info: [13:09:08] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+info: [13:09:08] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+info: [13:09:08] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+info: [13:09:08] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+info: [13:09:08] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+info: [13:09:08] [Render thread/INFO]: Client initialization...
+info: [13:09:08] [Render thread/INFO]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_634
+info: [13:09:08] [Render thread/INFO]: [REI] Config loaded
+info: [13:09:08] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+info: [13:09:08] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[13:09:08] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+info: [13:09:08] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[13:09:08] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+info: [13:09:08] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+info: [13:09:08] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[13:09:08] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+info: [13:09:08] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+info: [13:09:08] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+info: [13:09:09] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+info: [13:09:09] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+info: [13:09:09] [Render thread/INFO]: ViaVersion detected lowest supported version by the proxy: 1.7.2-1.7.5 (4)
+[13:09:09] [Render thread/INFO]: Highest supported version by the proxy: 1.20 (763)
+info: [13:09:10] [Render thread/WARN]: ViaVersion does not have any compatible versions for this server version!
+[13:09:10] [Render thread/WARN]: Please remember that ViaVersion only adds support for versions newer than the server version.
+[13:09:10] [Render thread/WARN]: If you need support for older versions you may need to use one or more ViaVersion addons too.
+[13:09:10] [Render thread/WARN]: In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+info: [13:09:10] [Render thread/WARN]: and if you're still unsure, feel free to join our Discord-Server for further assistance.
+info: [13:09:10] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor!
+info: [13:09:10] [Render thread/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+info: [13:09:10] [Render thread/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+info: [13:09:10] [Render thread/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+info: [13:09:10] [Render thread/INFO]: Compatibility version 17
+info: [13:09:10] [Render thread/INFO]: Loading plugins
+[13:09:10] [Render thread/INFO]: Loaded 0 plugin(s)
+[13:09:10] [Render thread/INFO]: Initializing plugins
+[13:09:10] [Render thread/INFO]: Initialized 0 plugin(s)
+info: [13:09:10] [Render thread/INFO]: Successfully registered ViaVersion mappings
+info: [13:09:10] [Render thread/INFO]: AdvancementInfo initialized
+info: [13:09:10] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+info: [13:09:10] [Render thread/INFO]: Auto Third Person initializing...
+info: [13:09:10] [Render thread/INFO]: [BetterF3] Loading...
+info: [13:09:10] [Render thread/INFO]: [BetterF3] All done!
+info: [13:09:11] [Render thread/INFO]: Trying to read config file...
+[13:09:11] [Render thread/INFO]: No config file found, creating a new one...
+info: [13:09:11] [Render thread/INFO]: Successfully created default config file.
+info: [13:09:11] [Render thread/INFO]: Re-caching descriptions because json doesn't match config.
+[13:09:11] [Render thread/INFO]: Connecting to 'bugs.mojang.com' to cache bug descriptions!
+info: [13:09:11] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+info: [13:09:11] [Render thread/INFO]: [FastQuit] Initialized
+info: [13:09:11] [Render thread/INFO]: Sodium is present
+[13:09:11] [Render thread/INFO]: Iris is present
+info: [13:09:12] [Render thread/WARN]: @Redirect conflict. Skipping immediatelyfast.mixins.json:fast_buffer_upload.MixinVertexBuffer from mod immediatelyfast->@Redirect::optimizeVertexDataUploading(ILjava/nio/ByteBuffer;I)V with priority 500, already redirected by mixins.feather.json:wq from mod feather->@Redirect::le(ILjava/nio/ByteBuffer;I)V with priority 1000
+[13:09:12] [Render thread/WARN]: @Redirect conflict. Skipping immediatelyfast.mixins.json:fast_buffer_upload.MixinVertexBuffer from mod immediatelyfast->@Redirect::optimizeIndexDataUploading(ILjava/nio/ByteBuffer;I)V with priority 500, already redirected by mixins.feather.json:wq from mod feather->@Redirect::vp(ILjava/nio/ByteBuffer;I)V with priority 1000
+info: [13:09:12] [Render thread/INFO]: Loading ImmediatelyFast 1.1.15+1.20.1
+info: [13:09:12] [Render thread/INFO]: Found Iris 1.6.4. Enabling compatibility.
+info: [13:09:12] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+info: [13:09:12] [Render thread/INFO]: Using Cloth Config GUI
+info: [13:09:12] [Worker-Main-1/INFO]: Checking mod updates...
+info: [13:09:12] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+info: [13:09:12] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Generating the config file at: C:\Users\ilanw\AppData\Roaming\.minecraft\config\MouseTweaks.cfg
+info: [13:09:12] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Created the config file.
+[13:09:12] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+info: [13:09:13] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[13:09:13] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[13:09:13] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[13:09:13] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+info: [13:09:13] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+info: [13:09:13] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+info: [13:09:13] [Render thread/INFO]: Loading Opus
+info: [13:09:13] [Render thread/INFO]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.class_315
+[13:09:13] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to mdbc5f99$nochatreports$lambda$onlyShowSecureChat$0$2 in mixins/common/nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+info: [13:09:13] [Worker-Main-1/ERROR]: Caught exception in thread Thread[Worker-Main-1,5,main]
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Unknown Source) ~[?:?]
+	at com.terraformersmc.modmenu.util.ModrinthUtil.lambda$checkForUpdates$4(ModrinthUtil.java:86) ~[modmenu-7.0.1.temp.jar:?]
+	at java.util.Map.forEach(Unknown Source) ~[?:?]
+	at com.terraformersmc.modmenu.util.ModrinthUtil.lambda$checkForUpdates$5(ModrinthUtil.java:79) ~[modmenu-7.0.1.temp.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+info: [13:09:13] [Render thread/INFO]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.class_7594
+info: [13:09:13] [Render thread/FATAL]: Minecraft ran into a problem! Report saved to: C:\Users\ilanw\AppData\Roaming\.minecraft\crash-reports\crash-2023-06-24_13.09.13-server.txt
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2023-06-24 13:09:13
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'imm_ptl_core'!
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at fudge.notenoughcrashes.fabric.mixinhandlers.ModLoaders.fabricEntrypoints(ModLoaders.java:9)
+	at net.minecraft.class_310.redirect$dnn000$notenoughcrashes$catchFabricInit(class_310.java:22006)
+	at net.minecraft.class_310.<init>(class_310.java:458)
+	at net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at net.digitalingot.rustextension.ProxiedStart.main(ProxiedStart.java:16)
+Caused by: java.lang.IllegalStateException: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_291 failed
+	at qouteall.q_misc_util.Helper.noError(Helper.java:640)
+	at qouteall.imm_ptl.core.compat.iris_compatibility.IrisInterface$OnIrisPresent.<init>(IrisInterface.java:45)
+	at qouteall.imm_ptl.core.platform_specific.IPModEntryClient.onInitializeClient(IPModEntryClient.java:94)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
+	... 14 more
+Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_291 failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredField(Unknown Source)
+	at qouteall.imm_ptl.core.compat.iris_compatibility.IrisInterface$OnIrisPresent.lambda$new$0(IrisInterface.java:46)
+	at qouteall.q_misc_util.Helper.noError(Helper.java:637)
+	... 17 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422)
+	... 26 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Redirector optimizeVertexDataUploading(ILjava/nio/ByteBuffer;I)V in immediatelyfast.mixins.json:fast_buffer_upload.MixinVertexBuffer from mod immediatelyfast failed injection check, (0/1) succeeded. Scanned 1 target(s). Using refmap ImmediatelyFast-refmap.json
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:468)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1385)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1062)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:402)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 29 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at fudge.notenoughcrashes.mixinhandlers.EntryPointCatcher.handleEntryPointError(EntryPointCatcher.java:28)
+	at net.minecraft.class_310.redirect$dnn000$notenoughcrashes$catchFabricInit(class_310.java:22008)
+	at net.minecraft.class_310.<init>(class_310.java:458)
+	at net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at net.digitalingot.rustextension.ProxiedStart.main(ProxiedStart.java:16)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20
+	Minecraft Version ID: 1.20
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 410954392 bytes (391 MiB) / 671088640 bytes (640 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.42
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x9a49
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.4091
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 23000.50
+	Virtual memory used (MB): 20046.59
+	Swap memory total (MB): 6893.71
+	Swap memory used (MB): 427.54
+	JVM Flags: 8 total; -Xmx2048M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:ErrorFile=feather/java_error.log
+	Fabric Mods: 
+		advancementinfo: AdvancementInfo 1.20-fabric0.83.0-1.3.1
+		appleskin: AppleSkin 2.5.0+mc1.20
+		architectury: Architectury 9.0.8
+		auto_third_person: Auto Third Person 2.0.2
+		bendy-lib: Bendy api 4.0.0
+		betterf3: BetterF3 7.0.0
+		blur: Blur (Fabric) 3.1.0
+			satin: Satin 1.13.0
+		capes: Capes 1.5.2+1.20
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-beta.8
+		chat_heads: Chat Heads 0.10.16
+		cloth-config: Cloth Config v11 11.0.99
+			cloth-basic-math: cloth-basic-math 0.6.1
+		creativecore: CreativeCore 2.10.24
+			net_minecraftforge_eventbus: eventbus 6.0.3
+		dark-loading-screen: Dark Loading Screen 1.6.14
+		dashloader: DashLoader 5.0.0-beta.1+1.20.0
+			com_github_luben_zstd-jni: zstd-jni 1.5.2-2
+			dev_notalpha_taski: Taski 2.1.0
+			dev_quantumfusion_hyphen: Hyphen 0.4.0-rc.3
+		debugify: Debugify 1.20+1.1
+		dynamicfps: Dynamic FPS 2.4.0
+			com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		eatinganimationid: Eating Animation 1.9.4+1.20
+		elementa: Elementa 590
+		entityculling: EntityCulling-Fabric 1.6.2-mc1.20
+		essential: Essential 12933+deploy-staging+gf941de5ac
+		essential-container: essential-container 1.0.0
+			essential-loader: essential-loader 1.0.0
+		fabric-api: Fabric API 0.83.0+1.20
+			fabric-api-base: Fabric API Base 0.4.29+b04edc7a27
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.34+4d8536c927
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.10+b3afc78b27
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.9+e022e5d127
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.39+b3afc78b27
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.20+b3afc78b27
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.32+f71b366f27
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.11+b3afc78b27
+			fabric-commands-v0: Fabric Commands (v0) 0.2.49+df3654b327
+			fabric-containers-v0: Fabric Containers (v0) 0.1.61+df3654b327
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.7+b3afc78b27
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.3+b3afc78b27
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.18+aeb40ebe27
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.1.10+b3afc78b27
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.51+b3afc78b27
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.21+b3afc78b27
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.0+b3afc78b27
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.61+df3654b327
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.38+b04edc7a27
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.26+b3afc78b27
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.7+b3afc78b27
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.36+fb8d95da27
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.34+df3654b327
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.20+b3afc78b27
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.37+b3afc78b27
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.41+9e7660c627
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.6+b3afc78b27
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.47+b3afc78b27
+			fabric-models-v0: Fabric Models (v0) 0.3.35+b3afc78b27
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.8+b3afc78b27
+			fabric-networking-v0: Fabric Networking (v0) 0.3.48+df3654b327
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.0.6+b3afc78b27
+			fabric-particles-v1: Fabric Particles (v1) 1.0.28+b3afc78b27
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.18+b3afc78b27
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.2.6+b3afc78b27
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.0.1+b3afc78b27
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.3.1+b3afc78b27
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.44+df3654b327
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.33+b3afc78b27
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.26+b3afc78b27
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.47+df3654b327
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.6+b3afc78b27
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.4+b3afc78b27
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.7+f7923f6d27
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.6+b3afc78b27
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.27+b3afc78b27
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.12+b3afc78b27
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.2.2+b3afc78b27
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.2.0+b3afc78b27
+		fabric-language-kotlin: Fabric Language Kotlin 1.9.5+kotlin.1.8.22
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.8.22
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.20.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.7.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.7.1
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.5.1
+		fabricloader: Fabric Loader 0.14.21
+		fallingleaves: Falling Leaves 1.15.1+1.20.1
+		faster_entity_animations: FastAnim 1.6
+		fastquit: FastQuit 3.0.0-beta.1+1.20+
+		feather: Feather Client 1.0.0-SNAPSHOT
+		firstperson: FirstpersonModel 2.2.3
+		geckolib: Geckolib 4.2
+			com_eliotlash_mclib_mclib: mclib 20
+		immediatelyfast: ImmediatelyFast 1.1.15+1.20.1
+			net_lenni0451_reflect: Reflect 1.1.0
+		immersive_portals: Immersive Portals 3.0.2
+			imm_ptl_core: Immersive Portals Core 3.0.2
+			q_misc_util: QMiscUtil 3.0.2
+		inventoryprofilesnext: Inventory Profiles Next 1.10.5
+		iris: Iris 1.6.4
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre13
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		java: OpenJDK 64-Bit Server VM 17
+		journeymap: Journeymap 5.9.8
+			journeymap-api-fabric: JourneyMap API 1.20-1.9-fabric-SNAPSHOT
+		libipn: libIPN 3.0.2
+		lithium: Lithium 0.11.2
+		midnightlib: MidnightLib 1.4.1
+		minecraft: Minecraft 1.20
+		modmenu: Mod Menu 7.0.1
+		morechathistory: MoreChatHistory 1.1.1
+		mousetweaks: Mouse Tweaks 2.25
+		nochatreports: No Chat Reports 1.20.1-v2.2.1
+		notenoughanimations: NotEnoughAnimations 1.6.4
+		notenoughcrashes: Not Enough Crashes 4.4.4+1.20
+		org_jetbrains_annotations: annotations 13.0
+		pehkui: Pehkui 3.7.6+1.14.4-1.20.1
+			kanos_config: Kanos Config 0.4.1+1.14.4-1.19.4
+		player-animator: Player Animator 1.0.2-rc1+1.20
+		replaymod: Replay Mod 1.20.1-2.6.13
+		roughlyenoughitems: Roughly Enough Items 12.0.625
+			error_notifier: Error Notifier 1.0.9
+		screenshotclipboard: Screenshot to Clipboard 1.0.9
+		sodium: Sodium 0.4.10+build.27
+		starlight: Starlight 1.1.2+fabric.dbc156f
+		totemcounter: TotemCounter 1.3.0+mc1.20
+		ukulib: ukulib 0.7.0+1.20
+			gs_mclo_java_mclogs-java: mclogs-java 2.1.1
+		universalcraft: UniversalCraft 277
+		viafabric: ViaFabric 0.4.10+39-main
+			org_yaml_snakeyaml: snakeyaml 2.0
+			viafabric-mc120: ViaFabric for 1.20 0.4.10+39-main
+			viaversion: ViaVersion 4.7.0
+		vigilance: Vigilance 284
+		vmp: Very Many Players 0.2.0+beta.7.93
+		voicechat: Simple Voice Chat 1.20-2.4.9
+		waveycapes: WaveyCapes 1.3.2
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.0.2+1.20
+			com_twelvemonkeys_common_common-image: common-image 3.9.4
+			com_twelvemonkeys_common_common-io: common-io 3.9.4
+			com_twelvemonkeys_common_common-lang: common-lang 3.9.4
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.9.4
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.9.4
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.9.4
+	Launched Version: 1.20
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'Feather Fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Suspected Mods: QMiscUtil (q_misc_util), Minecraft (minecraft), Fabric Loader (fabricloader), Immersive Portals Core (imm_ptl_core), Not Enough Crashes (notenoughcrashes)
+info: [13:09:13] [Render thread/INFO]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.class_338
+[13:09:13] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to mdbc5f99$nochatreports$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[13:09:13] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to mdbc5f99$nochatreports$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+info: [13:09:13] [Render thread/WARN]: @ModifyConstant conflict. Skipping morechathistory.mixins.json:MixinChatHud from mod morechathistory->@ModifyConstant::morechathistory_changeMaxHistory(I)I with priority 1000, already redirected by mixins.feather.json:oe from mod feather->@ModifyConstant::id(I)I with priority 1200
+[13:09:13] [Render thread/WARN]: @ModifyConstant conflict. Skipping morechathistory.mixins.json:MixinChatHud from mod morechathistory->@ModifyConstant::morechathistory_changeMaxHistory(I)I with priority 1000, already redirected by mixins.feather.json:oe from mod feather->@ModifyConstant::id(I)I with priority 1200
+info: [13:09:14] [Render thread/INFO]: [FastQuit] Exiting FastQuit.
+info: ---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2023-06-24 13:09:14
+Description: Initializing game
+
+java.lang.RuntimeException: Mixin transformation of net.minecraft.class_338 failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.minecraft.class_315.<init>(class_315.java:469)
+	at net.minecraft.class_310.<init>(class_310.java:460)
+	at net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at net.digitalingot.rustextension.ProxiedStart.main(ProxiedStart.java:16)
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422)
+	... 15 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InjectionError: Critical injection failure: Constant modifier method morechathistory_changeMaxHistory(I)I in morechathistory.mixins.json:MixinChatHud from mod morechathistory failed injection check, (0/1) succeeded. Scanned 1 target(s). Using refmap morechathistory-1.19.1-refmap.json
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.postInject(InjectionInfo.java:468)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1385)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1062)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:402)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 18 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at net.minecraft.class_315.<init>(class_315.java:469)
+	at net.minecraft.class_310.<init>(class_310.java:460)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.22621.1778 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.22621.1344 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.22621.1485 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.22621.1485 (WinBuild.160101.0800):Microsoft Corporation
+		MSASN1.dll:ASN.1 Runtime APIs:10.0.22621.819 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:Microsoft OLE for Windows:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.22621.1344 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.22621.1635 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft� C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:Application Compatibility Client Library:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.22621.1344 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP Client Service:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6 Client:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		fastprox.dll:WMI Custom Marshaller:10.0.22621.1635 (WinBuild.160101.0800):Microsoft Corporation
+		fw
+info: puclnt.dll:FWP/IPsec User-Mode API:10.0.22621.1635 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.22621.1778 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		gpapi.dll:Group Policy Client API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		javaw.exe:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		jli.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		jna15083626588712221516.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		jvm.dll:OpenJDK 64-Bit server VM:17.0.3.0:Eclipse Adoptium
+		kernel.appcore.dll:AppModel API Host:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		lwjgl_stb.dll
+		management.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		management_ext.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		msvcp140.dll:Microsoft� C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft� C Runtime Library:10.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		nio.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT Layer DLL:10.0.22621.1485 (WinBuild.160101.0800):Microsoft Corporation
+		opus4j.dll
+		perfos.dll:Windows System Performance Objects DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP Name Space Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		ucrtbase.dll:Microsoft� C Runtime Library:10.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme Library:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft� C Runtime Library:14.27.29016.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+		wbemcomn.dll:WMI:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wbemprox.dll:WMI:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wbemsvc.dll:WMI:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		win32u.dll:Win32u:10.0.22621.1848 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows Base Types DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.22621.1778 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:17.0.3.0:Eclipse Adoptium
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at net.digitalingot.rustextension.ProxiedStart.main(ProxiedStart.java:16)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20
+	Minecraft Version ID: 1.20
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 412936744 bytes (393 MiB) / 671088640 bytes (640 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.42
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x9a49
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.4091
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 23000.50
+	Virtual memory used (MB): 20055.31
+	Swap memory total (MB): 6893.71
+	Swap memory used (MB): 427.54
+	JVM Flags: 8 total; -Xmx2048M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:ErrorFile=feather/java_error.log
+	Fabric Mods: 
+		advancementinfo: AdvancementInfo 1.20-fabric0.83.0-1.3.1
+		appleskin: AppleSkin 2.5.0+mc1.20
+		architectury: Architectury 9.0.8
+		auto_third_person: Auto Third Person 2.0.2
+		bendy-lib: Bendy api 4.0.0
+		betterf3: BetterF3 7.0.0
+		blur: Blur (Fabric) 3.1.0
+			satin: Satin 1.13.0
+		capes: Capes 1.5.2+1.20
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-beta.8
+		chat_heads: Chat Heads 0.10.16
+		cloth-config: Cloth Config v11 11.0.99
+			cloth-basic-math: cloth-basic-math 0.6.1
+		creativecore: CreativeCore 2.10.24
+			net_minecraftforge_eventbus: eventbus 6.0.3
+		dark-loading-screen: Dark Loading Screen 1.6.14
+		dashloader: DashLoader 5.0.0-beta.1+1.20.0
+			com_github_luben_zstd-jni: zstd-jni 1.5.2-2
+			dev_notalpha_taski: Taski 2.1.0
+			dev_quantumfusion_hyphen: Hyphen 0.4.0-rc.3
+		debugify: Debugify 1.20+1.1
+		dynamicfps: Dynamic FPS 2.4.0
+			com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		eatinganimationid: Eating Animation 1.9.4+1.20
+		elementa: Elementa 590
+		entityculling: EntityCulling-Fabric 1.6.2-mc1.20
+		essential: Essential 12933+deploy-staging+gf941de5ac
+		essential-container: essential-container 1.0.0
+			essential-loader: essential-loader 1.0.0
+		fabric-api: Fabric API 0.83.0+1.20
+			fabric-api-base: Fabric API Base 0.4.29+b04edc7a27
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.34+4d8536c927
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.10+b3afc78b27
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.9+e022e5d127
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.39+b3afc78b27
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.20+b3afc78b27
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.32+f71b366f27
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.11+b3afc78b27
+			fabric-commands-v0: Fabric Commands (v0) 0.2.49+df3654b327
+			fabric-containers-v0: Fabric Containers (v0) 0.1.61+df3654b327
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.7+b3afc78b27
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.3+b3afc78b27
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.18+aeb40ebe27
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.1.10+b3afc78b27
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.51+b3afc78b27
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.21+b3afc78b27
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.0+b3afc78b27
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.61+df3654b327
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.38+b04edc7a27
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.26+b3afc78b27
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.7+b3afc78b27
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.36+fb8d95da27
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.34+df3654b327
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.20+b3afc78b27
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.37+b3afc78b27
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.41+9e7660c627
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.6+b3afc78b27
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.47+b3afc78b27
+			fabric-models-v0: Fabric Models (v0) 0.3.35+b3afc78b27
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.8+b3afc78b27
+			fabric-networking-v0: Fabric Networking (v0) 0.3.48+df3654b327
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.0.6+b3afc78b27
+			fabric-particles-v1: Fabric Particles (v1) 1.0.28+b3afc78b27
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.18+b3afc78b27
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.2.6+b3afc78b27
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.0.1+b3afc78b27
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.3.1+b3afc78b27
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.44+df3654b327
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.33+b3afc78b27
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.26+b3afc78b27
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.47+df3654b327
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.6+b3afc78b27
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.4+b3afc78b27
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.7+f7923f6d27
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.6+b3afc78b27
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.27+b3afc78b27
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.12+b3afc78b27
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.2.2+b3afc78b27
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.2.0+b3afc78b27
+		fabric-language-kotlin: Fabric Language Kotlin 1.9.5+kotlin.1.8.22
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.8.22
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.20.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.7.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.7.1
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.5.1
+		fabricloader: Fabric Loader 0.14.21
+		fallingleaves: Falling Leaves 1.15.1+1.20.1
+		faster_entity_animations: FastAnim 1.6
+		fastquit: FastQuit 3.0.0-beta.1+1.20+
+		feather: Feather Client 1.0.0-SNAPSHOT
+		firstperson: FirstpersonModel 2.2.3
+		geckolib: Geckolib 4.2
+			com_eliotlash_mclib_mclib: mclib 20
+		immediatelyfast: ImmediatelyFast 1.1.15+1.20.1
+			net_lenni0451_reflect: Reflect 1.1.0
+		immersive_portals: Immersive Portals 3.0.2
+			imm_ptl_core: Immersive Portals Core 3.0.2
+			q_misc_util: QMiscUtil 3.0.2
+		inventoryprofilesnext: Inventory Profiles Next 1.10.5
+		iris: Iris 1.6.4
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre13
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		java: OpenJDK 64-Bit Server VM 17
+		journeymap: Journeymap 5.9.8
+			journeymap-api-fabric: JourneyMap API 1.20-1.9-fabric-SNAPSHOT
+		libipn: libIPN 3.0.2
+		lithium: Lithium 0.11.2
+		midnightlib: MidnightLib 1.4.1
+		minecraft: Minecraft 1.20
+		modmenu: Mod Menu 7.0.1
+		morechathistory: MoreChatHistory 1.1.1
+		mousetweaks: Mouse Tweaks 2.25
+		nochatreports: No Chat Reports 1.20.1-v2.2.1
+		notenoughanimations: NotEnoughAnimations 1.6.4
+		notenoughcrashes: Not Enough Crashes 4.4.4+1.20
+		org_jetbrains_annotations: annotations 13.0
+		pehkui: Pehkui 3.7.6+1.14.4-1.20.1
+			kanos_config: Kanos Config 0.4.1+1.14.4-1.19.4
+		player-animator: Player Animator 1.0.2-rc1+1.20
+		replaymod: Replay Mod 1.20.1-2.6.13
+		roughlyenoughitems: Roughly Enough Items 12.0.625
+			error_notifier: Error Notifier 1.0.9
+		screenshotclipboard: Screenshot to Clipboard 1.0.9
+		sodium: Sodium 0.4.10+build.27
+		starlight: Starlight 1.1.2+fabric.dbc156f
+		totemcounter: TotemCounter 1.3.0+mc1.20
+		ukulib: ukulib 0.7.0+1.20
+			gs_mclo_java_mclogs-java: mclogs-java 2.1.1
+		universalcraft: UniversalCraft 277
+		viafabric: ViaFabric 0.4.10+39-main
+			org_yaml_snakeyaml: snakeyaml 2.0
+			viafabric-mc120: ViaFabric for 1.20 0.4.10+39-main
+			viaversion: ViaVersion 4.7.0
+		vigilance: Vigilance 284
+		vmp: Very Many Players 0.2.0+beta.7.93
+		voicechat: Simple Voice Chat 1.20-2.4.9
+		waveycapes: WaveyCapes 1.3.2
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.0.2+1.20
+			com_twelvemonkeys_common_common-image: common-image 3.9.4
+			com_twelvemonkeys_common_common-io: common-io 3.9.4
+			com_twelvemonkeys_common_common-lang: common-lang 3.9.4
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.9.4
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.9.4
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.9.4
+	Launched Version: 1.20-feather
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'Feather Fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Suspected Mods: Minecraft (minecraft), Fabric Loader (fabricloader)
+info: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\ilanw\AppData\Roaming\.minecraft\crash-reports\crash-2023-06-24_13.09.14-client.txt
+info: [2023-06-24T17:09:14Z INFO  rust_launcher::start::bindings] launch stalled
